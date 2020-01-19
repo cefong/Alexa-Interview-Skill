@@ -1,0 +1,90 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "interview me",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RequestSpecificCategory",
+                    "slots": [
+                        {
+                            "name": "category",
+                            "type": "category"
+                        }
+                    ],
+                    "samples": [
+                        "give me a {category} question"
+                    ]
+                },
+                {
+                    "name": "RequestRandom",
+                    "slots": [],
+                    "samples": [
+                        "give me a random question"
+                    ]
+                },
+                {
+                    "name": "HypeMe",
+                    "slots": [],
+                    "samples": [
+                        "give me some encouragement",
+                        "hype me up"
+                    ]
+                },
+                {
+                    "name": "GeneralInterviewTips",
+                    "slots": [],
+                    "samples": [
+                        "give me interview tips",
+                        "give me tips"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "category",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Personality"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Career Goals"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Experience"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
